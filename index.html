@@ -3,16 +3,22 @@
 <script src="bower_components/knockout/dist/knockout.debug.js"></script>
 <script src="out/koExtender.js"></script>
 <script src="out/SumVM.js"></script>
-<div>
+<script src="out/FullNameVM.js"></script>
+<div class="sum">
     <input data-bind="textInput: a">
     <input data-bind="textInput: b">
     <span data-bind="text: sum"></span>
     <button data-bind="click: reset">reset</button>
 </div>
-<div>
+<div class="sum">
     <input data-bind="textInput: a">
     <input data-bind="textInput: b">
     <span data-bind="text: sum"></span>
     <button data-bind="click: reset">reset</button>
+</div>
+<div class="names">
+  <div>First name: <span data-bind="text: firstName"></span></div>
+  <div>Last name: <span data-bind="text: lastName"></span></div>
+  <div class="heading">Hello, <input data-bind="textInput: fullName"/></div>
 </div>
 <script src="out/main.js"></script>
