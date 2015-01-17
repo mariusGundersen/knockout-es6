@@ -1,5 +1,5 @@
 
-class FirstVM extends ko.ViewModel{
+class SumVM extends ko.ViewModel{
   constructor(){
     this.a = 5;
     this.b = 7;
