@@ -22,7 +22,7 @@ class SumVM extends ko.ViewModel{
     );
   }
 
-  //this is a computed property. It will automtically update when either a or be change
+  //this is a computed property. It will automtically update when either a or b change
   get sum(){
     return this.a*1 + this.b*1;
   }
